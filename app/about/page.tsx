@@ -76,7 +76,7 @@ const AboutPage = () => {
 
   const entertainmentImages = [
     '/images/movie1.jpg',
-    '/images/movie2.png',
+    '/images/movie2.PNG',
     '/images/movie3.jpeg',
     '/images/movie4.jpeg',
   ];
