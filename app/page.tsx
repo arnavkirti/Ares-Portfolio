@@ -56,7 +56,7 @@ const LandingPage = () => {
                 <DialogHeader className="flex flex-row justify-between items-center sticky top-0 bg-gray-900/95 backdrop-blur-xl border-b border-gray-800/50 p-4">
                   <DialogTitle className="text-2xl font-semibold text-blue-400">Resume</DialogTitle>
                   <a 
-                    href="/resume.pdf" 
+                    href="https://drive.google.com/file/d/1sORT82_JJMaXgAfC5YMfjurJaWtDOqjW/view?usp=sharing" 
                     download
                     className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-cyan-400 hover:from-blue-500 hover:to-cyan-300 rounded-lg transition-all duration-300 text-sm font-medium shadow-lg hover:shadow-blue-500/20"
                   >
