@@ -11,6 +11,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import Link from 'next/link';
+import Image from 'next/image'
 import { Instagram, Twitter, Phone } from 'lucide-react';
 import {
   HoverCard,
@@ -119,25 +120,114 @@ const LandingPage = () => {
           </h3>
           
           <div className="grid md:grid-cols-2 gap-6">
-            <Card className="bg-gradient-to-br from-gray-900/90 to-gray-800/50 backdrop-blur-xl border-gray-700/50 hover:border-cyan-500/50 transition-all duration-300 group">
+            <Card className="bg-gradient-to-br from-gray-900/90 to-gray-800/50 backdrop-blur-xl border-gray-700/50 hover:border-blue-500 transition-all duration-300 group overflow-hidden">
+              <div className="h-48 overflow-hidden">
+                <Image 
+                  src="/defi-dojo.png" 
+                  alt="DeFi-Dojo Landing Page" 
+                  width={600}
+                  height={300}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
               <CardContent className="p-6 space-y-4">
-                <h4 className="text-xl font-semibold text-cyan-300">Defi-Dojo</h4>
+                <Link href="https://github.com/arnavkirti/DeFi-Dojo" target="_blank" className="hover:text-cyan-400 transition-colors">
+                  <h4 className="text-xl font-semibold text-cyan-300">Defi-Dojo</h4>
+                </Link>
                 <p className="text-gray-300">Gamified DeFi education platform with AI tutors and risk-free simulations</p>
                 <div className="flex gap-2">
-                  <span className="px-3 py-1 bg-cyan-500/10 text-cyan-400 rounded-full text-sm border border-cyan-500/20">Next.js</span>
+                  <span className="px-3 py-1 bg-cyan-500/10 text-blue-400 rounded-full text-sm border border-cyan-500/20">Next.js</span>
                   <span className="px-3 py-1 bg-purple-500/10 text-purple-400 rounded-full text-sm border border-purple-500/20">AI</span>
                   <span className="px-3 py-1 bg-emerald-500/10 text-emerald-400 rounded-full text-sm border border-emerald-500/20">DeFi</span>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="bg-gray-800/50 border-gray-700 hover:border-blue-500 transition-all duration-300">
+            <Card className="bg-gray-800/50 border-gray-700 hover:border-blue-500 transition-all duration-300 overflow-hidden">
+              <div className="h-48 overflow-hidden">
+                <Image 
+                  src="/aura-land.png" 
+                  alt="Aura-Land Landing Page" 
+                  width={600}
+                  height={300}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
               <CardContent className="p-6 space-y-4">
-                <h4 className="text-xl font-semibold text-cyan-300">Aura-Land</h4>
+                <Link href="https://github.com/arnavkirti/Aura-Land" target="_blank" className="hover:text-cyan-400 transition-colors">
+                  <h4 className="text-xl font-semibold text-cyan-300">Aura-Land</h4>
+                </Link>
                 <p className="text-gray-300">Multiplayer NFT game with ERC-20 in-game economy and cross-chain transfers</p>
                 <div className="flex gap-2">
                   <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">NFT</span>
                   <span className="px-3 py-1 bg-purple-500/20 text-purple-400 rounded-full text-sm">Game</span>
+                  <span className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">Web3</span>
+                </div>
+              </CardContent>
+            </Card>
+            
+            <Card className="bg-gray-800/50 border-gray-700 hover:border-blue-500 transition-all duration-300 overflow-hidden">
+              <div className="h-48 overflow-hidden">
+                <Image 
+                  src="/crypto-advisor.png" 
+                  alt="Crypto-Advisor Landing Page" 
+                  width={600}
+                  height={300}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
+              <CardContent className="p-6 space-y-4">
+                <Link href="https://github.com/arnavkirti/Crypto-Advisor" target="_blank" className="hover:text-cyan-400 transition-colors">
+                  <h4 className="text-xl font-semibold text-cyan-300">Crypto-Advisor</h4>
+                </Link>
+                <p className="text-gray-300">This is a AI-driven Crypto Investment Advisor that leverages MIRA Flows.</p>
+                <div className="flex gap-2">
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">AI</span>
+                  <span className="px-3 py-1 bg-purple-500/20 text-purple-400 rounded-full text-sm">Finance</span>
+                  <span className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">Web3</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-gray-800/50 border-gray-700 hover:border-blue-500 transition-all duration-300 overflow-hidden">
+              <div className="h-48 overflow-hidden">
+                <Image 
+                  src="/fit-knight.png" 
+                  alt="Fit Knight Landing Page" 
+                  width={600}
+                  height={300}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
+              <CardContent className="p-6 space-y-4">
+                <Link href="https://github.com/arnavkirti/Fit-Knight" target="_blank" className="hover:text-cyan-400 transition-colors">
+                  <h4 className="text-xl font-semibold text-cyan-300">Fit Knight</h4>
+                </Link>
+                <p className="text-gray-300">FitKnight is a full-stack fitness app designed to connect users with fitness buddies and groups based on location, provide a seamless group chat experience, and offer a personalized dashboard and notification system.</p>
+                <div className="flex gap-2">
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">React.js</span>
+                  <span className="px-3 py-1 bg-purple-500/20 text-purple-400 rounded-full text-sm">WebSockets</span>
+                  <span className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">Express</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-gray-800/50 border-gray-700 hover:border-blue-500 transition-all duration-300 overflow-hidden">
+              <div className="h-48 overflow-hidden">
+                <Image 
+                  src="/decSoc.png" 
+                  alt="Decentralised Social Media Landing Page" 
+                  width={600}
+                  height={300}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
+              <CardContent className="p-6 space-y-4">
+                <Link href="https://github.com/arnavkirti/Decentralized-social-media" target="_blank" className="hover:text-cyan-400 transition-colors">
+                  <h4 className="text-xl font-semibold text-cyan-300">Decentralised Social Media</h4>
+                </Link>
+                <p className="text-gray-300">This is a decentralised social media with the following features such as adding text posts, toggle of dark mode, a to-do app within the app, a election poll and feed of tweets and feed of embed tweets.</p>
+                <div className="flex gap-2">
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">React.js</span>
+                  <span className="px-3 py-1 bg-purple-500/20 text-purple-400 rounded-full text-sm"></span>
                   <span className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">Web3</span>
                 </div>
               </CardContent>

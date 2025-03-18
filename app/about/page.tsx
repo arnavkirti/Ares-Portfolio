@@ -78,7 +78,7 @@ const AboutPage = () => {
             <div className="backdrop-blur-sm bg-white/5 p-6 rounded-xl border border-gray-800/50">
               <h3 className="text-xl text-cyan-400">Indian Institute of Technology, Roorkee</h3>
               <p className="text-gray-300 mt-2">Bachelor of Technology</p>
-              <p className="text-gray-400">2021 - 2025</p>
+              <p className="text-gray-400">2023 - 2027</p>
             </div>
           </section>
         </div>
