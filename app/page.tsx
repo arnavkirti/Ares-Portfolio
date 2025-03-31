@@ -138,7 +138,6 @@ const LandingPage = () => {
                           <p>- Developed a multiplayer NFT game with ERC-20 in-game economy, enabling players to mint, trade, battle NPCs,
                           and earn Soulbound Tokens (SBTs).</p>
                           <p>- Implemented cross-chain NFT transfers via burn-and-mint logic and real-time multiplayer interactions with Socket.io.</p>
-                          <p></p>
                         </div>
                       </div>
                       
@@ -332,6 +331,28 @@ const LandingPage = () => {
                 <div className="flex gap-2">
                   <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">React.js</span>
                   <span className="px-3 py-1 bg-purple-500/20 text-purple-400 rounded-full text-sm">Hardhat</span>
+                  <span className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">Web3</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-gray-800/50 border-gray-700 hover:border-blue-500 transition-all duration-300 overflow-hidden">
+              <div className="h-48 overflow-hidden">
+                <Image 
+                  src="/helixscan.png" 
+                  alt="Helix Scan Landing Page" 
+                  width={600}
+                  height={400}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
+              <CardContent className="p-6 space-y-4">
+                <Link href="https://github.com/arnavkirti/HelixScan" target="_blank" className="hover:text-cyan-400 transition-colors">
+                  <h4 className="text-xl font-semibold text-cyan-300">HelixScan</h4>
+                </Link>
+                <p className="text-gray-300">A Blockchain Indexing Platform: A developer platform that auto-syncs NFT/token data to your Postgres DB via @heliuslabs. Next.js + Go backend.</p>
+                <div className="flex gap-2">
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">Next.js</span>
+                  <span className="px-3 py-1 bg-purple-500/20 text-purple-400 rounded-full text-sm">GoLang</span>
                   <span className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">Web3</span>
                 </div>
               </CardContent>
